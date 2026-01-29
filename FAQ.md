@@ -21,6 +21,14 @@ Fees vary by network and transaction type:
 * **FX Fee (non-USD):** 2.75%
 * **Monthly Fee (after 60 days):** $2.50
 
+### What are the benefits of using Fuel Network?
+
+Fuel Network offers the most optimized path with permanently free card issuance (100% discount) on all card purchases for a limited time.
+
+### How do I send funds through Fuel Network?
+
+We recommend using the Layerswap.io to move funds to Fuel Network. It allows you to transfer directly from most major chains with ease.
+
 ### Why doesn’t the card show the Haven brand?
 
 To ensure the best service, we use various prepaid card providers rather than locking users to one issuer. This means your card may show a different provider brand in your digital wallet.
@@ -41,8 +49,3 @@ Currently, Haven is a virtual-only program for digital wallets. Physical cards a
 
 No. As a virtual card program, ATM withdrawals are not supported. The card is designed for digital and mobile wallet point-of-sale transactions.
 
-### What are the benefits of using the Fuel Network?
-
-The Fuel Network offers the most optimized path with permanently free card issuance (100% discount) on all card purchases.
-
-Would you like me to convert this into a JSON format if you need to plug it directly into your app's code?
