@@ -8,18 +8,20 @@ Haven launches with prepaid cards that allow you to spend crypto without complex
 
 ### Do I need to verify my identity?
 
-No. Haven does not require IDs, Proof of Address (KYC), or verification of user data. Users provide basic self-declared information solely to activate Apple Pay, Google Pay, or Samsung Pay. This data remains decoupled from your transaction history.
+No. Haven does not require IDs, Proof of Address (KYC), or verification of user data. Users provide basic self-declared information solely to activate Apple Pay, Google Pay, or Samsung Pay. **This data remains decoupled from your onchain activity**.
 
 ### What are the card fees?
 
 Fees vary by network and transaction type:
 
-* **First Card Issuance:** Free on Fuel; $2.50 + 2.25% on other networks.
-* **Standard Card Issuance:** Free on Fuel; $5.00 + 4.5% on other networks.
-* **Transaction Fee ( $5):** $0.60
-* **Transaction Fee ( $5):** $0.50
-* **FX Fee (non-USD):** 2.75%
-* **Monthly Fee (after 60 days):** $2.50
+| Item | Fee |
+| :--- | :--- |
+| First Card Issuance | Free on Fuel; $2.50 + 2.25% on other networks. |
+| Standard Card Issuance | Free on Fuel; $5.00 + 4.5% on other networks. |
+| Transaction Fee ( $5) | $0.60 |
+| Transaction Fee ( $5) | $0.50 |
+| FX Fee (non-USD) | 2.75% |
+| Monthly Fee (after 60 days) | $2.50 |
 
 ### What are the benefits of using Fuel Network?
 
