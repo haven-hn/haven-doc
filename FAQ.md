@@ -1,0 +1,48 @@
+### What is Haven?
+
+Haven is a crypto card designed to let you transact without turning your on-chain financial life into public data. In uses prepaid cards to give users a clean way to spend crypto without dealing with wallets, seed phrases, or heavy setup.
+
+### How does the card work?
+
+Haven launches with prepaid cards that allow you to spend crypto without complex setups. Once the card is loaded, the balance can only be spent and cannot be withdrawn back to a wallet or used at an ATM.
+
+### Do I need to verify my identity?
+
+No. Haven does not require IDs, Proof of Address (KYC), or verification of user data. Users provide basic self-declared information solely to activate Apple Pay, Google Pay, or Samsung Pay. This data remains decoupled from your transaction history.
+
+### What are the card fees?
+
+Fees vary by network and transaction type:
+
+* **First Card Issuance:** Free on Fuel; $2.50 + 2.25% on other networks.
+* **Standard Card Issuance:** Free on Fuel; $5.00 + 4.5% on other networks.
+* **Transaction Fee ( $5):** $0.60
+* **Transaction Fee ( $5):** $0.50
+* **FX Fee (non-USD):** 2.75%
+* **Monthly Fee (after 60 days):** $2.50
+
+### Why doesn’t the card show the Haven brand?
+
+To ensure the best service, we use various prepaid card providers rather than locking users to one issuer. This means your card may show a different provider brand in your digital wallet.
+
+### Can I withdraw funds or send them back to my wallet?
+
+No. Prepaid cards do not support withdrawals or transfers back to your wallet. Once loaded, the balance must be spent.
+
+### What is a forex (FX) fee?
+
+An FX fee is a 2.75% charge applied when you spend in a currency other than USD. It covers the conversion to local currency at the moment of purchase.
+
+### Is there a physical version of the card?
+
+Currently, Haven is a virtual-only program for digital wallets. Physical cards are under development for future roadmap phases.
+
+### Can I use Haven at an ATM?
+
+No. As a virtual card program, ATM withdrawals are not supported. The card is designed for digital and mobile wallet point-of-sale transactions.
+
+### What are the benefits of using the Fuel Network?
+
+The Fuel Network offers the most optimized path with permanently free card issuance (100% discount) on all card purchases.
+
+Would you like me to convert this into a JSON format if you need to plug it directly into your app's code?
