@@ -78,7 +78,7 @@ To maintain the security and integrity of the program, the following limits appl
 
 ### Restricted Regions
 The Haven Card is accepted globally, excluding the following regions:
-* Cuba, North Korea, Iran, Syria, Crimea, Afghanistan, Belarus, Russian Federation, Sudan, and Venezuela.
+* China, Cuba, North Korea, Iran, Syria, Crimea, Afghanistan, Belarus, Russian Federation, Sudan, and Venezuela.
 
 ### Restricted Merchants
 Haven works at millions of merchants worldwide, but is currently restricted at the following:
