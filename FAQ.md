@@ -47,5 +47,8 @@ Currently, Haven is a virtual-only program for digital wallets. Physical cards a
 
 ### Can I use Haven at an ATM?
 
-No. As a virtual card program, ATM withdrawals are not supported. The card is designed for digital and mobile wallet point-of-sale transactions.
+No. As a virtual card program, ATM withdrawals are not supported. The card is designed for digital and mobile wallet point-of-sale transactions. Excluding 
 
+### Where can I use Haven?
+
+The Haven Card is accepted at millions of merchants globally. However, transactions are restricted for money orders, loan repayments and crypto purchases, gas stations, gambling and adult entertainment, video games, and regulated goods like pharmacies or tobacco. Additionally, usage is prohibited in Afghanistan, Belarus, China, Crimea, Cuba, Iran, North Korea, Russia, Sudan, Syria, and Venezuela.
