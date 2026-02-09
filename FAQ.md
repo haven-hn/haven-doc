@@ -18,8 +18,7 @@ Fees vary by network and transaction type:
 | :--- | :--- | :--- |
 | First Card Issuance | $2.50 + 2.25% | free | 
 | Standard Card Issuance | $5.00 + 4.5% | free |
-| Transaction Fee (< $5) | $0.60 | $0.60 |
-| Transaction Fee (> $5) | $0.50 | $0.50 |
+| Transaction Fee (Approved or Declined) | $0.60 | $0.60 |
 | FX Fee (non-USD) | 2.75% | 2.75% |
 | Monthly Fee (after 60 days) | $2.50 | $2.50 |
 
