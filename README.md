@@ -61,7 +61,7 @@ Haven offers a tiered fee structure, with significant incentives for users on th
 | **Transaction Fee (> $5)** | $0.50 | $0.50 |
 | **Micro-Transaction (≤ $5)** | $0.60 | $0.60 |
 | **FX Fee (Non-USD)** | 2.75% | 2.75% |
-| **Monthly Fee (After 60 days)** | $2.50 | $2.50 |
+| **Monthly Fee (After 60 days)** | $5.00 | $5.00 |
 
 ### Loading & Spending Limits
 To maintain the security and integrity of the program, the following limits apply:
