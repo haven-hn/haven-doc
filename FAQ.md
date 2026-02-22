@@ -20,7 +20,7 @@ Fees vary by network and transaction type:
 | Standard Card Issuance | $5.00 + 4.5% | free |
 | Transaction Fee (Approved or Declined) | $0.60 | $0.60 |
 | FX Fee (non-USD) | 2.75% | 2.75% |
-| Monthly Fee (after 60 days) | $2.50 | $2.50 |
+| Monthly Fee (after 60 days) | $5.00 | $5.00 |
 
 ### What are the benefits of using Fuel Network?
 
