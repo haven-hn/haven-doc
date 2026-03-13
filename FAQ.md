@@ -19,7 +19,7 @@ Fees vary by network and transaction type:
 | First Card Issuance | $2.50 + 2.25% | free | 
 | Standard Card Issuance | $5.00 + 4.5% | free |
 | Transaction Fee (Approved or Declined) | $0.60 | $0.60 |
-| FX Fee (non-USD) | 2.75% | 2.75% |
+| Cross-border Fee | 2.75% | 2.75% |
 | Monthly Fee (after 60 days) | $5.00 | $5.00 |
 
 ### What are the benefits of using Fuel Network?
@@ -38,9 +38,9 @@ To ensure the best service, we use various prepaid card providers rather than lo
 
 No. Prepaid cards do not support withdrawals or transfers back to your wallet. Once loaded, the balance must be spent.
 
-### What is a forex (FX) fee?
+### What is a Cross-border fee?
 
-An FX fee is a 2.75% charge applied when you spend in a currency other than USD. It covers the conversion to local currency at the moment of purchase.
+A cross-border fee is a 2.75% charge applied when you spend in a country other than your card issuer institution.
 
 ### Is there a physical version of the card?
 
