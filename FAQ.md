@@ -14,13 +14,13 @@ No. Haven does not require IDs, Proof of Address (KYC), or verification of user 
 
 Fees vary by network and transaction type:
 
-| Fee | Other | Fuel |
-| :--- | :--- | :--- |
-| First Card Issuance | $2.50 + 2.25% | $2.50 + 2.25% | 
-| Standard Card Issuance | $5.00 + 4.5% | $5.00 + 4.5% |
-| Transaction Fee (Approved or Declined) | $0.60 | $0.60 |
-| Cross-border Fee | 2.75% | 2.75% |
-| Monthly Fee (after 60 days) | $5.00 | $5.00 |
+| Fee | All networks |
+| :--- | :--- |
+| First Card Issuance | $2.50 + 2.25% |
+| Standard Card Issuance | $5.00 + 4.5% |
+| Transaction Fee (Approved or Declined) | $0.60 |
+| Cross-border Fee | 2.75% |
+| Monthly Fee (after 60 days) | $5.00 |
 
 ### How do I send funds through Fuel Network?
 
