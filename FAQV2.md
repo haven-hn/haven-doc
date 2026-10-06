@@ -72,6 +72,10 @@ Yes, at the licensed partners that handle crypto purchase and cash out. They ver
 
 Privacy Pools screening checks that funds entering the privacy layer are legitimate. It lets you keep your privacy and still prove your money is clean, without revealing who you are.
 
-### How do I get support?
+### Where can I get support?
 
-Reach the team from the Support channel (https://t.me/haven_support_bot), or join the Telegram community (https://t.me/+DB1ef42e3pdlNWFh) for help and updates.
+Telegram at https://t.me/haven_support_bot or support@haven.hn. Legal and privacy requests go to legal@haven.hn.
+
+### How do I delete my account?
+
+Go to Profile > Delete account in the app, or email legal@haven.hn. Before deleting, withdraw your balance and wait for any pending operation to finish. Deleting your account is permanent and removes your account data from Haven. It does not delete your wallet or your on-chain assets, which remain under your control. Section 10 of our Privacy Policy (https://haven.hn/privacy#account-deletion) lists which data is deleted and what we may keep.
