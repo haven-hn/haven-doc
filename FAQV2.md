@@ -78,4 +78,4 @@ Telegram at https://t.me/haven_support_bot or support@haven.hn. Legal and privac
 
 ### How do I delete my Haven Finance account?
 
-In the Haven Finance app, go to Profile, tap Delete account and confirm. You can also email legal@haven.hn from the address linked to your account. We delete your email, account identifiers, device tokens, loyalty points and usage data within 30 days. We may keep limited records where the law requires it. Deleting your account does not delete your wallet or your on-chain assets, which remain under your control.
+In the Haven Finance app, go to Profile, tap Delete account and confirm. Before deleting, withdraw your balance and wait for any pending operation to finish. You can also email legal@haven.hn from the address linked to your account. We delete your email, account identifiers, device tokens, loyalty points and usage data within 30 days. We may keep limited records where the law requires it. Deleting your account does not delete your wallet or your on-chain assets, which remain under your control.
