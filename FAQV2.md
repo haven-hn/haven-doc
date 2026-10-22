@@ -170,6 +170,10 @@ The card issuer decides who can get a card and may not share the reason. Your Ha
 
 Freeze your card right away in the app and contact support.
 
+### How do I cancel my card?
+
+To cancel your card, contact support on Telegram at [t.me/haven_support_bot](https://t.me/haven_support_bot) or email [support@haven.hn](mailto:support@haven.hn), and we'll take care of it for you.
+
 ### What if I lose my phone?
 
 It depends on where your passkey is saved. What matters is where the passkey itself lives, not whether you signed up with email or Google. Most passkeys are saved to your Apple account (iCloud Keychain), Google account (Google Password Manager), or a password manager and sync to your other devices. Sign in to the same account on your new device to access Haven. If your passkey was saved only on the lost device, contact support.
