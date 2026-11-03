@@ -56,7 +56,7 @@ Deposits usually arrive in seconds to a few minutes, depending on the network. T
 
 ### Are there deposit fees?
 
-Haven covers the network and bridge fees. The shield fee is deducted from your deposit; see Privacy.
+Haven covers the network and bridge fees. The shield fee is deducted from your deposit.
 
 ### If a deposit fails, how do I get my money back?
 
