@@ -1,0 +1,16 @@
+{
+  "name": "haven-recover",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Find and withdraw your Haven shielded balance with your recovery keys, without any Haven service",
+  "type": "module",
+  "bin": {
+    "haven-recover": "./dist/haven-recover.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "starknet": "10.6.3"
+  }
+}
