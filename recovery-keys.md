@@ -1,6 +1,6 @@
 # Recovery keys
 
-You opened this page from "How to use these keys" in the Haven app (Account › Security › Recovery keys). It explains what each recovery key is, how to keep them safe, and how to use them to reach your money if Haven is ever offline.
+You opened this page from "How to use these keys" in the Haven app (Account › Security › Recovery keys). Your recovery keys let you move your own money with open tools, at any time, without the Haven app. Haven being offline is one example of when you'd use them; you don't need a reason. This page explains what each key is, how to keep them safe, and how to move your money with them.
 
 ## What the screen gives you
 
@@ -8,7 +8,7 @@ You opened this page from "How to use these keys" in the Haven app (Account › 
 | --- | --- | --- |
 | Starknet address | Your Haven account on Starknet. | No |
 | Owner key | The Stark private key that signs for the account (one owner, no guardian). | Yes: anyone with it can move your money |
-| Viewing key | The key that finds and reads your shielded notes in the privacy pool. | Yes: anyone with it can see your shielded balance |
+| Viewing key | The key that finds and reads your shielded balance in the privacy pool. | Yes: anyone with it can see your shielded balance |
 | Account class | The account contract class hash (Argent v0.5). Tools need it to import the account. | No |
 | Privacy pool | The StarkWare privacy pool contract that holds your shielded balance. | No |
 
@@ -20,11 +20,34 @@ The app derives both keys on your device right after you confirm with your passk
 - Clear your clipboard after you paste them somewhere safe.
 - Haven support will never ask for your keys. Anyone who asks is trying to take your money.
 
-## Move your public balance without Haven
+## The simplest path
 
-Your public balance sits in your Starknet account. Any Starknet tool that accepts a private key can sign for it. With [starkli](https://book.starkli.rs) 0.4.2:
+1. **If your balance is shielded, withdraw it in the app first.** Use **Withdraw** and send it to your account's own Starknet address (the one on the Recovery keys screen). It becomes public balance in your account.
+2. **Move that public balance with your Owner key**, using any tool you like: the open script below, or starkli.
 
-1. Print your account's owner public key and next nonce with [haven-recover](recovery-tool/): from its folder, `node dist/haven-recover.mjs keys` (setup in its [README](recovery-tool/README.md)). starkli can't read a Haven account from the chain by itself (`starkli account fetch` doesn't know the Argent v0.5 class), so you describe it by hand in the next step.
+Taking the shielded balance out without the app has no public tool yet; use Withdraw in the app.
+
+## Move your balance with your Owner key
+
+Your public balance sits in your Starknet account, and the Owner key signs for it. The account pays the network fee in STRK, so keep a little STRK in it. Haven's sponsored gas only works inside the app.
+
+### With the open script
+
+[`haven-recover`](recovery-tool/) is a short open script (one readable file) that needs only your Starknet address, your Owner key and any Starknet node. It checks the key, shows your public balance and sends it to another wallet:
+
+```bash
+node dist/haven-recover.mjs keys
+node dist/haven-recover.mjs balance
+node dist/haven-recover.mjs transfer --token <token contract> --amount <amount in base units> --to <destination>
+```
+
+Setup and token addresses are in its [README](recovery-tool/README.md).
+
+### With starkli
+
+With [starkli](https://book.starkli.rs) 0.4.2:
+
+1. Print your account's owner public key and next nonce with `node dist/haven-recover.mjs keys` (see above). starkli can't read a Haven account from the chain by itself (`starkli account fetch` doesn't know the Argent v0.5 class), so you describe it by hand in the next step.
 2. Save this as `haven-account.json`, with your owner public key and Starknet address (no secret involved):
 
    ```json
@@ -52,18 +75,7 @@ Your public balance sits in your Starknet account. Any Starknet tool that accept
 
    `keys` printed the next nonce. Take the three gas prices from the latest block on an explorer and set them a little higher.
 
-The account pays gas in STRK, so it needs a little STRK before step 3. Haven's sponsored gas is not available without Haven.
-
 Wallets such as Ready (Argent) and Braavos may also import an account by address and private key; check the wallet's own documentation, because support varies by version.
-
-## Your shielded balance
-
-Your shielded notes live in the privacy pool, and only your Viewing key can find them. With the Viewing key and the Owner key you can list your notes straight from the pool contract and withdraw them through an open prover. Haven's open recovery tool, [`haven-recover`](recovery-tool/), lists that balance and the deposits still waiting at your receiving addresses using only these two keys, your address, the pool address and any Starknet node; to withdraw, it needs a Starknet transaction prover (StarkWare's open prover, run by you or a provider) and a little STRK in your account for gas.
-
-Two things to know before you count on it:
-
-- **Withdrawing needs a prover and STRK.** The pool only accepts a withdrawal that comes with a proof, and there is no free public service that makes one. You can run StarkWare's open prover on your own machine (it needs a large one, about 24 GB of memory) or use a provider that runs it. Your account also pays the network fee and the pool's fee in STRK, so keep a few STRK in it.
-- **Deposits still on their way show up, but can't be moved yet.** Money sent to a Haven receiving address that never reached the pool is still yours, and the tool shows where it is and how much. Bringing it into the pool requires a check that only StarkWare's screening service signs, so until that service is open to individuals the tool can show it but not move it.
 
 ## What the keys can't recover
 
@@ -73,3 +85,7 @@ Two things to know before you count on it:
 ## If you use e-mail or Google to sign in
 
 Recovery keys are not available yet for accounts that sign in with e-mail or Google. These accounts need an additional security check before the app can show the keys, and the screen tells you so instead of showing them.
+
+---
+
+<sub>A deposit sent from another network that never finished arriving in Haven stays at its Haven receiving address and is still yours. The keys can find it, but no public tool moves it yet.</sub>

@@ -2,7 +2,7 @@
   "name": "haven-recover",
   "version": "0.1.0",
   "private": true,
-  "description": "Find and withdraw your Haven shielded balance with your recovery keys, without any Haven service",
+  "description": "Check your Haven recovery keys, read your public balance on Starknet and move it with your Owner key",
   "type": "module",
   "bin": {
     "haven-recover": "./dist/haven-recover.mjs"
