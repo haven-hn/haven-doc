@@ -92,4 +92,5 @@ application repository (`packages/starknet/recovery-cli`).
 
 ## License
 
-See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+Apache-2.0, see [LICENSE](LICENSE). Its one dependency is listed in
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
