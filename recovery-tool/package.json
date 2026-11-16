@@ -1,0 +1,17 @@
+{
+  "name": "haven-recover",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Check your Haven recovery keys, read your public balance on Starknet and move it with your Owner key",
+  "license": "Apache-2.0",
+  "type": "module",
+  "bin": {
+    "haven-recover": "./dist/haven-recover.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "starknet": "10.6.3"
+  }
+}
